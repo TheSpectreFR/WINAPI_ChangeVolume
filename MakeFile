@@ -1,0 +1,7 @@
+build:
+	gcc -Wfatal-errors \
+	-std=c99 \
+	./ChangeVolume.c \
+	-lmingw32 \
+	-lole32 \
+	-o "./ChangeVolume.exe"
